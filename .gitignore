@@ -1,0 +1,15 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# AI Studio internal artifacts
+.aistudio/
+
+# Separated alternative categories (resort, hotel, restaurant)
+# Kept local so only the Noir Studio website is pushed to GitHub
+categories/
